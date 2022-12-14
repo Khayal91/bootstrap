@@ -1,0 +1,35 @@
+:root{
+    --bg_color : #ffd500;
+}
+.r_header{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    background: var(--bg_color);
+    margin-bottom: 15px;
+}
+.r_nav, .r_article, .r_ads{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    background: var(--bg_color);
+    
+}
+.r_footer{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    background: var(--bg_color);
+    margin-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .r_nav, .r_article, .r_ads{
+        min-height: 200px;
+    }
+    .r_article{
+        margin: 15px 0px;
+    }
+    .noPadding{
+        padding: 0px;
+    }
+}
